@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    font-family: "Google Sans", sans-serif;
+    font-family: "Google Sans", Helvetica, sans-serif;
     color: #3d4144;
     background-image: url(https://gdgelpaso.org/images/gdg-background.svg);
     margin: 0;
