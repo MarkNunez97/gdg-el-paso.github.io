@@ -115,5 +115,6 @@ input, textarea, select, button {
 .copyright-signature {
     margin-top: 24px;
     color: rgba(61, 65, 68, 0.3);
+    font-size: 12px;
 }
 
