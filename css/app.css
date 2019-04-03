@@ -58,6 +58,7 @@ input, textarea, select, button {
 
 .site-logo {
     width: 211px;
+    max-width: 211px;
     display: block;
     height: auto; 
 }
