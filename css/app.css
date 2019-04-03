@@ -1,3 +1,118 @@
-body {
-    background-image: url(images/gdg-background.svg);
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
 }
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Google Sans", sans-serif;
+    color: #3d4144;
+    background-image: url(https://gdgelpaso.org/images/gdg-background.svg);
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 48em) {
+    body {
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+body, input, textarea, select, button {
+    font-synthesis: none;
+    -moz-font-feature-settings: 'kern';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    direction: ltr;
+    text-align: left; 
+}
+
+input, textarea, select, button {
+    font-family: "Google Sans", sans-serif; 
+}
+
+#splash { /* full site container */
+    height: 100%;
+    min-height: 100%;
+}
+
+.flex { /* flexbox container */
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    align-items: center;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+    justify-content: center;
+}
+
+.wrapper {
+    max-width: 400px;
+    padding: 0 24px;
+}
+
+.site-logo {
+    width: 211px;
+    display: block;
+    height: auto; 
+}
+
+.site-headline {
+    font-size: 48px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 48em) {
+    .site-headline {
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 48em) {
+    .site-headline {
+        font-weight: 500;
+        letter-spacing: -0.6px;
+        line-height: 58px;
+    }
+}
+
+.site-typography {
+    color: #5f6368;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 0 24px 0;
+}
+
+/* Social Icons */
+
+.social-icons {
+    margin: 0 0 0 5px;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0px;
+}
+
+.social-icons li a {
+    font-size: 32px;
+    color: #3d4144;
+}
+
+/* copyright */
+
+.copyright-signature {
+    margin-top: 24px;
+    color: rgba(61, 65, 68, 0.3);
+}
+
